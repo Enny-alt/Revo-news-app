@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+
+.background {
+  @apply bg-[#e43f5d];
+}
+
+@theme {
+  --font-roboto: "Roboto Mono", sans-serif;
+  --font-work: "Work Sans", sans-serif;
+}
+
+body{
+  @apply font-work text-[#212121]
+}
